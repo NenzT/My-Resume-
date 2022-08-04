@@ -2,6 +2,10 @@ header  {
   text-align: center;
   background-color: #212227;
         }
+#heading{ color:#F7ECE1;
+          font-size: 110%;
+          font-family:'Times New Roman', Times, serif
+        }
 
 #headshot{
   resize: vertical 20%;
@@ -14,6 +18,7 @@ body  {
 #sidebar{
       background-color:#192A51;
       color: #F7ECE1;
+      width: 20%
         }
 #menu {
       font-size: 30px;
@@ -23,10 +28,6 @@ h1 {
   color: #F7ECE1; 
   font-size: 36px;
    }
-#MainH{
-  color:#F7ECE1;
-  font-size: 24px;
-}
 
 .icons{
   resize: vertical 10%;
@@ -35,3 +36,7 @@ footer  {
   background-color: #212227;
   text-align: center;
         }
+
+.navList  {
+    list-style-type:none;
+          }
