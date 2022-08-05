@@ -3,6 +3,7 @@ header{
   background-color: #212227;
   padding-top: 10px;
   padding-bottom: 20px;
+  justify-content: center;
 }
 
 #heading{ color:#F7ECE1;
@@ -21,17 +22,14 @@ body{
   font-family:"Arial", Helvetica, sans-serif ;
   font-size:110%;
   background-color: #FFF;
+  display:flex;
+  flex-direction: column
 }
 
 #sidebar{
       background-color:#192A51;
       color: #F7ECE1;
-      padding: 1rem;
-      width: 20%
-}
-
-#menu{
-      font-size: 30px;
+      padding: 1rem
 }
 
 h1{
@@ -57,4 +55,10 @@ footer{
   width: 3rem;
   margin: 0.5rem;
   height: auto
+}
+
+.main{
+  display:flex;
+  flex-direction: row;
+  overflow:unset
 }
