@@ -1,42 +1,60 @@
-header  {
+header{
   text-align: center;
   background-color: #212227;
-        }
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 #heading{ color:#F7ECE1;
           font-size: 110%;
           font-family:'Times New Roman', Times, serif
-        }
+}
 
-#headshot{
-  resize: vertical 20%;
-  }
-body  {
+#profilePhoto{
+   width: 25%;
+   height: 25%;
+   border-radius: 50%;
+   border: 4.5px solid #E28413
+}
+
+body{
   font-family:"Arial", Helvetica, sans-serif ;
   font-size:110%;
   background-color: #FFF;
-      }
+}
+
 #sidebar{
       background-color:#192A51;
       color: #F7ECE1;
+      padding: 1rem;
       width: 20%
-        }
-#menu {
-      font-size: 30px;
-      }
+}
 
-h1 {
+#menu{
+      font-size: 30px;
+}
+
+h1{
   color: #F7ECE1; 
   font-size: 36px;
-   }
+} 
 
-.icons{
-  resize: vertical 10%;
-      } 
-footer  {
+footer{
   background-color: #212227;
   text-align: center;
-        }
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#Details{
+  color:#F7ECE1
+}
 
-.navList  {
+.navList{
     list-style-type:none;
-          }
+    padding: 0
+}
+.icons{
+  width: 3rem;
+  margin: 0.5rem;
+  height: auto
+}
